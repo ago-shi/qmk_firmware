@@ -36,7 +36,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 #define PREVENT_STUCK_MODIFIERS
 #define IGNORE_MOD_TAP_INTERRUPT
-#define TAPPING_TERM 200
+// 長押し判定時間
+#define TAPPING_TERM 180
 #define COMBO_COUNT 32
 
 /* key matrix size */

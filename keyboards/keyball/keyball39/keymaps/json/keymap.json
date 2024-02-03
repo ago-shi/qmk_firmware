@@ -4,7 +4,7 @@
 "layers":
 [[
     "KC_Q", "KC_W", "KC_E", "KC_R", "KC_T", "KC_NO",                                              "KC_NO", "KC_Y", "KC_U", "KC_I",          "KC_O",   "KC_P",
-    "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_NO",                                              "KC_NO", "KC_H", "KC_J", "KC_K",          "KC_L",   "LT(3,KC_SCLN)",
+    "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_NO",                                              "KC_NO", "KC_H", "KC_J", "KC_K",          "KC_L",   "LT(4,KC_SCLN)",
     "KC_Z", "KC_X", "KC_C", "KC_V", "KC_B", "KC_NO",                                              "KC_NO", "KC_N", "KC_M", "LT(3,KC_COMM)", "KC_DOT", "KC_SLSH",
     "KC_TAB", "KC_LALT", "KC_LCTL", "LT(1, KC_LANG1)", "LT(2, KC_SPC)", "LSFT_T(KC_LANG2)",       "KC_BSPC", "RSFT_T(KC_ENT)",                        "KC_DEL"
 ],
@@ -12,7 +12,7 @@
     "KC_EXLM", "JP_DQUO", "KC_HASH",    "KC_DLR",     "KC_PERC", "KC_NO",          "KC_NO", "JP_AMPR", "JP_QUOT", "JP_LPRN", "JP_RPRN", "KC_MINS",
     "JP_CIRC", "JP_TILD", "KC_NO",      "JP_COLN",    "JP_PIPE", "KC_NO",          "KC_NO", "JP_UNDS", "JP_GRV",  "JP_LBRC", "JP_RBRC", "JP_ASTR",
     "KC_ESC",  "KC_NO",   "MY_MS_BTN1", "MY_MS_BTN2", "JP_YEN",  "KC_NO",          "KC_NO", "KC_NO",   "JP_EQL",  "JP_LCBR", "JP_RCBR", "JP_AT",
-    "KC_NO",   "KC_NO",   "KC_APP",  "KC_TRNS", "KC_TRNS", "KC_TRNS",              "RSFT(KC_ENT)", "RALT(KC_ENT)",                      "KC_SLSH"
+    "KC_NO",   "KC_NO",   "KC_LGUI",    "KC_TRNS", "KC_TRNS", "KC_TRNS",           "RSFT(KC_ENT)", "RALT(KC_ENT)",                      "KC_SLSH"
 ],
 [
     "KC_NO", "KC_F2",   "KC_NO",   "KC_NO",   "KC_F5",        "KC_NO",          "KC_NO", "KC_NO",   "JP_7", "JP_8", "JP_9", "JP_ASTR",
@@ -21,8 +21,14 @@
     "KC_NO", "KC_F11",  "KC_F12",  "KC_TRNS", "KC_TRNS", "KC_TRNS",             "RALT_T(JP_0)", "JP_EQL",                   "JP_SLSH"
 ],
 [
+    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO", "KC_NO", "KC_NO",   "KC_NO",  "KC_NO",
+    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO", "KC_NO", "KC_NO",   "KC_NO",  "_______",
+    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO", "KC_NO", "_______", "KC_TAB", "KC_TRNS",
+    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO",                               "KC_TRNS"
+],
+[
     "SEL_USB", "SEL_BLE", "AD_WO_L", "KC_NO",    "DELBNDS",  "KC_NO",           "KC_NO", "KC_NO", "KC_NO",      "KC_NO",      "KC_NO",  "KC_NO",
     "ADV_ID0", "ADV_ID1", "ADV_ID2", "CPI_I100", "SCRL_DVD", "KC_NO",           "KC_NO", "KC_NO", "MY_MS_BTN1", "MY_MS_BTN2", "KC_NO",  "_______",
-    "DEL_ID0", "DEL_ID1", "DEL_ID2", "CPI_D100", "SCRL_DVI", "KC_NO",           "KC_NO", "KC_NO", "MY_MS_BTN1", "_______",    "KC_TAB", "KC_TRNS",
+    "DEL_ID0", "DEL_ID1", "DEL_ID2", "CPI_D100", "SCRL_DVI", "KC_NO",           "KC_NO", "KC_NO", "KC_NO",      "_______",    "KC_TAB", "KC_TRNS",
     "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",  "KC_TRNS",  "KC_TRNS",         "KC_TRNS", "KC_TRNS",                                   "KC_TRNS"
 ]]}
