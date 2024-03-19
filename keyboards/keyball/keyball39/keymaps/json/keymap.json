@@ -3,32 +3,32 @@
 "layout":"LAYOUT",
 "layers":
 [[
-    "KC_Q",       "KC_W", "KC_E",       "KC_R", "KC_T", "KC_NO",                                  "KC_NO", "KC_Y", "KC_U", "KC_I",          "KC_O",   "KC_P",
-    "LT(4,KC_A)", "KC_S", "KC_D",       "KC_F", "KC_G", "KC_NO",                                  "KC_NO", "KC_H", "KC_J", "KC_K",          "KC_L",   "LT(4,KC_SCLN)",
-    "KC_Z",       "KC_X", "LT(3,KC_C)", "KC_V", "KC_B", "KC_NO",                                  "KC_NO", "KC_N", "KC_M", "LT(3,KC_COMM)", "KC_DOT", "KC_SLSH",
-    "KC_TAB", "KC_LALT", "KC_LCTL", "LT(1, KC_LANG1)", "LT(2, KC_SPC)", "LSFT_T(KC_LANG2)",       "KC_BSPC", "RSFT_T(KC_ENT)",                        "KC_DEL"
+    "KC_Q",       "KC_W", "KC_E",       "KC_R",         "KC_T",         "KC_NO",                             "KC_NO", "KC_Y",         "KC_U",         "KC_I",          "KC_O",   "KC_P",
+    "LT(4,KC_A)", "KC_S", "KC_D",       "KC_F",         "KC_G",         "KC_NO",                             "KC_NO", "KC_H",         "KC_J",         "KC_K",          "KC_L",   "LT(4,KC_SCLN)",
+    "KC_Z",       "KC_X", "LT(3,KC_C)", "LALT_T(KC_V)", "LGUI_T(KC_B)", "KC_NO",                             "KC_NO", "RGUI_T(KC_N)", "RALT_T(KC_M)", "LT(3,KC_COMM)", "KC_DOT", "KC_SLSH",
+    "KC_ESC", "LSFT(KC_TAB)", "LCTL_T(KC_TAB)", "LT(1, KC_LANG1)", "LT(2, KC_SPC)", "LSFT_T(KC_LANG2)",      "RCTL_T(KC_BSPC)", "RSFT_T(KC_ENT)",                                "KC_DEL"
 ],
 [
-    "KC_EXLM", "JP_DQUO", "KC_HASH", "KC_DLR",  "KC_PERC", "KC_NO",                     "KC_NO", "JP_AMPR", "JP_QUOT", "JP_LPRN", "JP_RPRN", "KC_MINS",
-    "JP_CIRC", "JP_TILD", "KC_NO",   "JP_COLN", "JP_PIPE", "KC_NO",                     "KC_NO", "JP_UNDS", "JP_GRV",  "JP_LBRC", "JP_RBRC", "JP_ASTR",
-    "KC_ESC",  "KC_NO",   "KC_NO",   "KC_NO",   "JP_YEN",  "KC_NO",                     "KC_NO", "KC_NO",   "JP_EQL",  "JP_LCBR", "JP_RCBR", "JP_AT",
-    "KC_NO",  "RSFT(KC_S)", "KC_LGUI", "KC_TRNS", "KC_TRNS", "KC_TRNS",           "RSFT(KC_ENT)", "RALT(KC_ENT)",                      "KC_SLSH"
+    "KC_EXLM",       "JP_DQUO",      "KC_HASH", "KC_DLR", "KC_PERC", "KC_NO",         "KC_NO", "JP_AMPR", "JP_QUOT", "JP_LPRN", "JP_RPRN", "KC_MINS",
+    "LCTL(JP_COLN)", "JP_CIRC",      "JP_COLN", "JP_YEN", "JP_PIPE", "KC_NO",         "KC_NO", "JP_UNDS", "JP_GRV",  "JP_LBRC", "JP_RBRC", "JP_ASTR",
+    "KC_NO",         "LGUI(KC_DOT)", "JP_HENK", "KC_GRV", "KC_NO",   "KC_NO",         "KC_NO", "KC_TILD", "JP_EQL",  "JP_LCBR", "JP_RCBR", "JP_AT",
+    "LCTL(W)", "LSFT(KC_S)", "KC_LGUI", "KC_TRNS", "KC_TRNS", "KC_TRNS",              "KC_BSPC", "KC_ENT",                              "LCA(KC_DEL)"
 ],
 [
-    "KC_NO", "KC_F2",   "KC_NO",   "LGUI(KC_R)", "KC_F5",        "KC_NO",          "KC_NO", "KC_NO",   "JP_7", "JP_8", "JP_9", "JP_ASTR",
-    "KC_NO", "KC_LEFT", "KC_UP",   "KC_RGHT",    "KC_TAB",       "KC_NO",          "KC_NO", "JP_COMM", "JP_4", "JP_5", "JP_6", "JP_MINS",
-    "KC_NO", "KC_NO",   "KC_DOWN", "KC_NO",      "LSFT(KC_TAB)", "KC_NO",          "KC_NO", "JP_DOT",  "JP_1", "JP_2", "JP_3", "JP_PLUS",
-    "KC_NO", "KC_F11",  "KC_F12",  "KC_TRNS",    "KC_TRNS", "KC_TRNS",             "RALT_T(JP_0)", "JP_EQL",                   "JP_SLSH"
+    "LALT(KC_LEFT)", "LALT(KC_UP)", "LALT(KC_DOWN)", "LALT(KC_RGHT)", "KC_NO",        "KC_NO",          "KC_NO", "JP_COMM", "JP_7",         "JP_8",         "JP_9",         "JP_ASTR",
+    "KC_LEFT",       "KC_UP",       "KC_DOWN",       "KC_RGHT",       "KC_TAB",       "KC_NO",          "KC_NO", "JP_COLN", "RALT_T(JP_4)", "RSFT_T(JP_5)", "RCTL_T(JP_6)", "JP_MINS",
+    "LSFT(KC_LEFT)", "LSFT(KC_UP)", "LSFT(KC_DOWN)", "LSFT(KC_RGHT)", "LSFT(KC_TAB)", "KC_NO",          "KC_NO", "JP_DOT",  "JP_1",         "JP_2",         "RGUI_T(JP_3)", "JP_PLUS",
+    "LCTL(JP_0)", "LCTL(JP_PLUS)", "LCTL(JP_MINS)", "KC_TRNS", "KC_TRNS", "KC_TRNS",                    "RCTL_T(JP_0)", "RSFT_T(JP_EQL)",                                   "JP_SLSH"
 ],
 [
-    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO", "KC_NO", "KC_NO",   "KC_NO",  "KC_NO",
-    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO", "KC_NO", "KC_NO",   "KC_NO",  "_______",
-    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO", "KC_NO", "_______", "KC_TAB", "KC_TRNS",
-    "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",           "KC_NO", "KC_NO",                               "KC_TRNS"
+    "KC_NO", "KC_F2",   "KC_NO",   "KC_NO",  "KC_F5",         "KC_NO",               "KC_NO", "KC_NO", "KC_NO",         "KC_F8",         "KC_F9",        "KC_F12",
+    "KC_NO", "KC_HOME", "KC_PGUP", "KC_END", "LALT(KC_UP)",   "KC_NO",               "KC_NO", "KC_NO", "RCTL(KC_SCLN)", "RCTL(JP_COLN)", "RCTL_T(KC_6)", "KC_NO",
+    "KC_NO", "KC_NO",   "KC_PGDN", "KC_NO",  "LALT(KC_DOWN)", "KC_NO",               "KC_NO", "KC_NO", "KC_NO",         "KC_NO",         "KC_TAB",       "KC_TRNS",
+    "KC_NO", "LCTL(KC_PGUP)", "LCTL(KC_PGDN)", "KC_RTNS", "KC_TRNS", "KC_TRNS",      "KC_NO", "KC_NO",                                                   "LCS(KC_ESC)"
 ],
 [
-    "SEL_USB", "SEL_BLE", "AD_WO_L", "KC_NO",    "DELBNDS",  "KC_NO",           "KC_NO", "KC_NO", "KC_NO",      "KC_NO",      "KC_NO",  "KC_NO",
-    "ADV_ID0", "ADV_ID1", "ADV_ID2", "CPI_I100", "SCRL_DVD", "KC_NO",           "KC_NO", "KC_NO", "MY_MS_BTN1", "MY_MS_BTN2", "KC_NO",  "_______",
-    "DEL_ID0", "DEL_ID1", "DEL_ID2", "CPI_D100", "SCRL_DVI", "KC_NO",           "KC_NO", "KC_NO", "KC_NO",      "_______",    "KC_TAB", "KC_TRNS",
-    "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",  "KC_TRNS",  "KC_TRNS",         "KC_TRNS", "KC_TRNS",                                   "KC_TRNS"
+    "KC_NO",    "KC_NO",   "AD_WO_L", "KC_NO",   "DELBNDS",  "KC_NO",           "KC_NO", "KC_NO", "KC_NO",      "KC_NO",      "KC_NO",  "KC_NO",
+    "SCRL_DVI", "ADV_ID0", "ADV_ID1", "ADV_ID2", "CPI_I100", "KC_NO",           "KC_NO", "KC_NO", "MY_MS_BTN1", "MY_MS_BTN2", "KC_NO",  "KC_NO",
+    "SCRL_DVD", "DEL_ID0", "DEL_ID1", "DEL_ID2", "CPI_D100", "KC_NO",           "KC_NO", "KC_NO", "KC_NO",      "KC_NO",      "KC_TAB", "KC_TRNS",
+    "BATT_LV", "SEL_USB", "SEL_BLE", "KC_TRNS",  "KC_TRNS",  "KC_TRNS",         "KC_TRNS", "KC_TRNS",                                   "KC_TRNS"
 ]]}
