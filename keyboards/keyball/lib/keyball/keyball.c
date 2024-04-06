@@ -498,7 +498,7 @@ const key_string_map_t custom_keys_user =
 {
     .start_kc = KBC_RST,
     .end_kc = KEYBALL_SAFE_RANGE,
-    .key_strings = "KBC_RST\0KBC_SAVE\0CPI_I100\0CPI_D100\0CPI_I1K\0CPI_D1K\0SCRL_TO\0SCRL_MO\0SCRL_DVI\0SCRL_DVD\0MY_MS_BTN1\0MY_MS_BTN2\0MY_MS_BTN3\0KEYBALL_SAFE_RANGE\0"
+    .key_strings = "KBC_RST\0KBC_SAVE\0CPI_I100\0CPI_D100\0CPI_I1K\0CPI_D1K\0SCRL_TO\0SCRL_MO\0SCRL_DVI\0SCRL_DVD\0MY_MS_BTN1\0MY_MS_BTN2\0MY_MS_BTN3\0WIN_SFT_S\0CTL_SFT_ESC\0KEYBALL_SAFE_RANGE\0"
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
@@ -596,6 +596,22 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 add_scroll_div(-1);
                 break;
 
+        /* ago-shi original start */
+            case WIN_SFT_S:
+                register_code(KC_LGUI);
+                register_code(KC_LSFT);
+                tap_code(KC_S);
+                unregister_code(KC_LGUI);
+                unregister_code(KC_LSFT);
+                break;
+            case CTL_SFT_ESC:
+                register_code(KC_RCTL);
+                register_code(KC_RSFT);
+                tap_code(KC_ESC);
+                unregister_code(KC_RCTL);
+                unregister_code(KC_RSFT);
+
+        /* ago-shi original end */
             default:
                 return true;
         }

@@ -79,3 +79,20 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_ballinfo();
 }
 #endif
+
+// HOLD_ON_OTHER_KEY_PRESS_PER_KEYを割り当てるキーコードを設定
+bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(4, KC_SCLN):
+        case LT(1, KC_LANG1):
+        case LT(2, KC_SPC):
+        case LSFT_T(KC_LANG2):
+        case RCTL_T(KC_BSPC):
+        case RSFT_T(KC_ENT):
+            // Immediately select the hold action when another key is pressed.
+            return true;
+        default:
+            // Do not select the hold action when another key is pressed.
+            return false;
+    }
+}

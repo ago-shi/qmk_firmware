@@ -91,6 +91,9 @@ enum custom_keycodes {
     MY_MS_BTN2,
     MY_MS_BTN3,
 
+    WIN_SFT_S,
+    CTL_SFT_ESC,
+
     KEYBALL_SAFE_RANGE,
 };
 

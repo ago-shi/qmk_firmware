@@ -36,7 +36,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAP_CODE_DELAY 5
 
 /* track ball */
-#define KEYBALL_CPI_DEFAULT 300
+#define KEYBALL_CPI_DEFAULT 500
 #define KEYBALL_SCROLLSNAP_ENABLE 1
 
 /* OLED */
@@ -45,3 +45,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* layer */
 #define DYNAMIC_KEYMAP_LAYER_COUNT  5
+
+// 長押し時間が到来する前に長押し判定する設定を有効化
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY

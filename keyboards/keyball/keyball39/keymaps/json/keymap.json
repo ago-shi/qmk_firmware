@@ -11,7 +11,7 @@
 [
     "KC_EXLM",       "JP_DQUO",      "KC_HASH", "KC_DLR", "KC_PERC", "KC_NO",         "KC_NO", "JP_AMPR", "JP_QUOT", "JP_LPRN", "JP_RPRN", "KC_MINS",
     "LCTL(JP_COLN)", "JP_CIRC",      "JP_COLN", "JP_YEN", "JP_PIPE", "KC_NO",         "KC_NO", "JP_UNDS", "JP_GRV",  "JP_LBRC", "JP_RBRC", "JP_ASTR",
-    "KC_NO",         "LGUI(KC_DOT)", "JP_HENK", "KC_GRV", "KC_NO",   "KC_NO",         "KC_NO", "KC_TILD", "JP_EQL",  "JP_LCBR", "JP_RCBR", "JP_AT",
+    "KC_NO",         "LGUI(KC_DOT)", "JP_HENK", "KC_GRV", "KC_NO",   "KC_NO",         "KC_NO", "JP_TILD", "JP_EQL",  "JP_LCBR", "JP_RCBR", "JP_AT",
     "LCTL(W)", "LSFT(KC_S)", "KC_LGUI", "KC_TRNS", "KC_TRNS", "KC_TRNS",              "KC_BSPC", "KC_ENT",                              "LCA(KC_DEL)"
 ],
 [
